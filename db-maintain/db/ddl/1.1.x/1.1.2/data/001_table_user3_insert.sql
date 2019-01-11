@@ -1,0 +1,1 @@
+INSERT INTO user3 (id, NAME) VALUES ('9fa89695-154a-11e9-b221-5254004a37e4', 'miaoying');
