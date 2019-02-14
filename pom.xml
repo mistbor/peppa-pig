@@ -13,6 +13,7 @@
         <module>gateway</module>
         <module>dubbo</module>
         <module>db-maintain</module>
+        <module>redis</module>
     </modules>
 
     <!-- 统一管理版本 -->
