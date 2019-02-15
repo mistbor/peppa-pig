@@ -23,6 +23,8 @@
         <zookeeper.version>3.4.13</zookeeper.version>
         <swagger.version>2.9.2</swagger.version>
         <mysql.version>8.0.13</mysql.version>
+        <lombok.version>1.18.4</lombok.version>
+        <redis.version>3.0.1</redis.version>
     </properties>
 
     <parent>
@@ -72,6 +74,18 @@
                 <version>${mysql.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${redis.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
