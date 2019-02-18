@@ -27,9 +27,8 @@ public class ConsumerController {
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public ConsumerPOJO test(@RequestParam(value = "name", defaultValue = "consumer") String name) {
-        ProviderPOJO providerPOJO = providerService.test("hello");
+        ProviderPOJO providerPOJO = providerService.test(name);
         ConsumerPOJO consumerPOJO = new ConsumerPOJO(counter.incrementAndGet(), name, port, providerPOJO);
-        log.info(providerPOJO.toString());
         return consumerPOJO;
     }
 }
