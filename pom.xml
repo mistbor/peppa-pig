@@ -14,6 +14,7 @@
         <module>dubbo</module>
         <module>db-maintain</module>
         <module>redis</module>
+        <module>common</module>
     </modules>
 
     <!-- 统一管理版本 -->
