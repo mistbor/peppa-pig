@@ -25,7 +25,7 @@
         <dubbo.version>2.6.5</dubbo.version>
         <zookeeper.version>3.4.13</zookeeper.version>
         <swagger.version>2.9.2</swagger.version>
-        <mysql.version>8.0.13</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <lombok.version>1.18.4</lombok.version>
         <redis.version>3.0.1</redis.version>
     </properties>
